@@ -7,4 +7,4 @@ const Twitter = require('../src/twitter');
 let image = new Images().getRandom();
 let tweet = new Tweet(image).getStatus();
 
-Twitter.post(tweet);
+Twitter.post("SnowBot7 defeats them all!");
